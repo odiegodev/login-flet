@@ -18,7 +18,7 @@ container = ft.Container(
                 height=40,
                 hint_text='Digite seu email',
                 border='underline',
-                color='black',
+                color='white',
                 prefix_icon= ft.icons.EMAIL
             ),
             padding=ft.padding.only(20,20)
@@ -29,7 +29,7 @@ container = ft.Container(
                 height=40,
                 hint_text='Digite sua senha',
                 border='underline',
-                color='black',
+                color='white',
                 prefix_icon= ft.icons.LOCK,
                 password= True
             ),
@@ -39,7 +39,7 @@ container = ft.Container(
         ft.Container(
             ft.Checkbox(
                 label= 'Salvar senha',
-                check_color='black'   
+                check_color='white'   
             ),
             padding=ft.padding.only(80)
         ),
@@ -47,7 +47,7 @@ container = ft.Container(
             ft.ElevatedButton(
                 text='ENTRAR',
                 width=280,
-                bgcolor='black'
+                bgcolor='#001A55'
             ),
             padding=ft.padding.only(20,20)
         ),
